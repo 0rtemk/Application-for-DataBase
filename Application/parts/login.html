@@ -1,0 +1,24 @@
+<!-- LOGIN FORM -->
+<div class="text-center pb-5">
+	<div class="logo">Login</div>
+	<!-- Main Form -->
+	<div class="login-form-1 border border-secondary rounded-20">
+		<form id="login-form" class="text-left" action="login.php" method="post">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form pb-3">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="action" class="sr-only">Username</label>
+						<input type="text" class="form-control" id="lg_username" name="login" placeholder="username" pattern="[A-Za-z0-9_-]+" required>
+					</div>
+					<div class="form-group">
+						<label for="action" class="sr-only">Password</label>
+						<input type="password" class="form-control" id="lg_password" name="password" placeholder="password" required>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-secondary">Log In</button>
+			</div>
+		</form>
+	</div>
+	<!-- end:Main Form -->
+</div>
